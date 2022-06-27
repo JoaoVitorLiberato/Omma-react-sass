@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header"
 import Nav from "../../components/Nav"
+import ReceitaRisoto from "../Receitas";
 import './style.scss'
 
 import BannerMain from '../../assets/images/baner-index.jpg'
@@ -8,7 +9,6 @@ import Risoto from '../../assets/images/risoto.png'
 import BoloDeBanana from '../../assets/images/bolo-banana.png'
 import Tabule from '../../assets/images/tabule.png'
 import BannerFooter from '../../assets/images/baner-roda-index.jpg'
-
 
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
                     <h2>Receitas <br /> feitas com afeto.</h2>
                 </div>
                 <section>
-                    <h1>Receitas da semana</h1>
+                    <h2>Receitas da semana</h2>
                     <article className="receitas">
                         <article className="receitas--all">
                             <img src={Risoto} alt="risoto de abóbora" />

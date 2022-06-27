@@ -1,0 +1,102 @@
+main{
+    @media (max-width: 800px) {
+        .banner{
+            display: none;
+        }
+    }
+
+    h1{
+        width: 400px;
+        font-weight: 700;
+        font-size: 80px;
+        color: #FFFFFF !important;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+        margin: 0;
+
+    }
+
+    .conteudo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        margin: 0;
+
+        img{
+            height: 500px;
+            @media (max-width: 800px) {
+               display: none;
+            }
+        }
+
+        form{
+            width: 700px;
+            height: 500px;
+            border: 2px solid #FFA000;
+            @media (max-width: 800px) {
+                width: 340px;
+            }
+            fieldset{
+                border: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 15px;
+               
+                legend{
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 46px;
+                    color: #FFC107;
+                    float: left;
+                    @media (max-width: 800px) {
+                        text-align: center;
+                    }
+                }
+                div{
+                    clear: both;
+                  
+                    input[type=text], input[type=email], textarea{
+                        width: 600px;
+                        border: 2px solid #FFA000;
+                        outline: 0;
+                        border-radius: 7px;
+                        margin: 15px;
+                        padding: 8px;
+                        @media (max-width: 800px) {
+                            width: 280px;
+                        }
+
+                        &::placeholder{
+                            text-align: center;
+                            color: #FFA000;
+                            font-size: 15px;
+
+                        }
+                    }
+
+                    textarea{
+                        resize: none;
+                        height: 190px;
+                    }
+
+                    input[type=submit]{
+                        background: #FFC107;
+                        border: none;
+                        border-radius: 50px;
+                        margin-top: 12px;
+                        margin-left: 15px;
+                        padding: 13px 90px;
+                        cursor: pointer;
+                        color: #FFFFFF;
+                        font-size: 15px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}

@@ -15,7 +15,7 @@ body{
 
             img{
                 width: 50%;
-                margin-left: 88.1px;
+                margin-left: 10.099999999999994px;
                 padding: 15px;
                
             }            
@@ -29,9 +29,7 @@ body{
             padding: 10px 125px;
             margin-right: 356px;
             @media (max-width: 800px){
-                width: 100%;
-                font-size: 10px;
-                line-height: 15px;     
+              display: none;   
             }
         }
     }

@@ -37,7 +37,7 @@
 
      section{
 
-        h1{
+        h2{
             color: #FFA000;
             font-size: 55px;
             line-height: 67px;
@@ -47,8 +47,7 @@
             
         @media(max-width: 800px){
             text-align: center;
-            font-size: 35px ;
-            line-height: 23px;  
+            font-size: 30px ; 
         }
         }
         .receitas{
@@ -57,13 +56,6 @@
             justify-content: center;
             align-items: center;
 
-            @media(max-width: 800px){
-                display: flex;
-                justify-content: center;
-                flex-direction: column; 
-             }
-             
-
             &--all{
                 display: flex;
                 justify-content: center; 
@@ -71,10 +63,17 @@
                 align-items: center; 
                 margin: 0;
                 padding: 40px;
+                @media(max-width: 800px){
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                }
                 
                 img{
                     width: 300px;
                     height: 300px;
+                     
                 }
 
                 span{
