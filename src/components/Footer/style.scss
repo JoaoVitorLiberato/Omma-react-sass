@@ -1,0 +1,38 @@
+body{
+    footer{
+        width: 100%;
+        height: auto;
+        background: #FFC107;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width: 800px){
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            img{
+                width: 50%;
+                margin-left: 88.1px;
+                padding: 15px;
+               
+            }            
+        }
+
+        p{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+            padding: 10px 125px;
+            margin-right: 356px;
+            @media (max-width: 800px){
+                width: 100%;
+                font-size: 10px;
+                line-height: 15px;     
+            }
+        }
+    }
+}

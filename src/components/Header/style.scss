@@ -1,0 +1,17 @@
+body{
+    header{
+        background:  #FFC107;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+
+        @media (max-width: 800px){
+            
+            img{
+               width: 200px;
+            }
+            
+            
+        }
+    }
+}

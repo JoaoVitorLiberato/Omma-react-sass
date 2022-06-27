@@ -1,0 +1,27 @@
+body{
+        nav{
+            background: #FFA000;
+
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                padding: 10px;
+
+                li{
+                    margin: 0 20px;
+
+                    a{
+                        text-decoration: none;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #FDFDFD;
+                    }
+                }
+            } 
+        }
+    
+}
