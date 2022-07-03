@@ -1,8 +1,10 @@
+import './style.scss'
+
 import Footer from "../../components/Footer";
 import Header from "../../components/Header"
 import Nav from "../../components/Nav"
 import ReceitaRisoto from "../Receitas";
-import './style.scss'
+
 
 import BannerMain from '../../assets/images/baner-index.jpg'
 import Risoto from '../../assets/images/risoto.png'

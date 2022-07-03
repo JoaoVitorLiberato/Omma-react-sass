@@ -1,10 +1,11 @@
 body{
     header{
+        width: 100%;
         background:  #FFC107;
         display: flex;
         justify-content: center;  
         align-items: center;
-
+        
         @media (max-width: 800px){
             
             img{

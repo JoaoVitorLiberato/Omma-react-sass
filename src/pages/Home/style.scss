@@ -1,41 +1,37 @@
  main{
-    margin: 0;
+    margin: 0 !important;
     .bannerIndex{
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        
+        @media (max-width: 481px) {
+            display: none;
+        }
+    
             img{
-                width: 1348px;
-
-                @media (max-width: 800px){
-                    width: 100%;
-                }
+                width: 100%;
             }
 
             h2{
                 height: 100px;
-                display: block;
                 position: absolute;
                 right: 50px;
                 font-weight: 700;
                 font-size: 50px;
                 line-height: 50px;
                 color: #FFFFFF;
-            }
-
-            @media (max-width: 800px){
-                img{
-                    width: 100%;
-                }
-                h2{
-                    font-size: small;
-                    line-height: 15px;
-                }  
             }       
     }
 
      section{
+
+        @media (max-width: 481px) {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
         h2{
             color: #FFA000;
@@ -44,11 +40,10 @@
             text-align: center;
             padding: 50px;
 
-            
-        @media(max-width: 800px){
-            text-align: center;
-            font-size: 30px ; 
-        }
+            @media (max-width: 481px) {
+               font-size: 33px;
+               padding: 10px;
+            }
         }
         .receitas{
             width: 100%;
@@ -63,12 +58,7 @@
                 align-items: center; 
                 margin: 0;
                 padding: 40px;
-                @media(max-width: 800px){
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
-                }
+             
                 
                 img{
                     width: 300px;
@@ -95,14 +85,13 @@
 
    .sectionRodape{
 
-    @media(max-width: 800px){
-        display: none !important;
-         
-    }
-
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    @media (max-width: 481px) {
+        display: none;
+    }
         h3{
             width: 588px;
             height: 96px;

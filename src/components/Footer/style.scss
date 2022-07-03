@@ -7,26 +7,22 @@ body{
         justify-content: center;
         align-items: center;
 
-        @media (max-width: 800px){
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
+        @media (max-width: 481px) {
+            height: 70px;
+            width: auto;
+            box-sizing: border-box;
             img{
-                width: 50%;
-                margin-left: 10.099999999999994px;
-                padding: 15px;
-               
-            }            
+                width: 250px;
+            }
         }
 
         p{
+            width: 100%;
             font-weight: 700;
             font-size: 18px;
             line-height: 22px;
             color: #FFFFFF;
-            padding: 10px 125px;
+            padding: 10px 94px;
             margin-right: 356px;
             @media (max-width: 800px){
               display: none;   
